@@ -8,7 +8,12 @@ describe("login test POM", ()=> {
 
     });
     it ("login with valid credentials", ()=>{
-        loginPage.login('filip.nedovic@vivifyideas.com','Test12345!')
+        loginPage.login('filip.nedovic@vivifyideas.com','Test1234578!');
+        cy.get ('p').should('have.css','border-color','rgb(245, 198, 203)');
+        cy.get ('p').should('have.css','background-color','rgb(248, 215, 218)');
+        cy.get ('p').should('have.css','color','rgb(114, 28, 36)');
+        
+
 
     });
 

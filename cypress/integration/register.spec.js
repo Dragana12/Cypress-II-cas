@@ -8,12 +8,8 @@ describe("registration test", () => {
   })
 
   it("register without first name", () => {
-    cy.get(Register.lastName).type("prezime");
-    cy.get(Register.emailField).type("test+@mail.com");
-    cy.get(Register.passwordField).type("Test12345!");
-    cy.get(Register.passwordConfirmation).type("Test12345!");
-    cy.get(Register.checkbox).check();
-    cy.get(Register.submitBtn).click();
+    registerPage.register (lastName, email, passwordField, passwordConfirmation, checkbox);
+   cy.get (firstName).should.be.empty ();
   });
 
   it("register without last name", () => {
