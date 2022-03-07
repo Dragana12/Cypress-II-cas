@@ -1,21 +1,4 @@
-{
-<<<<<<< HEAD
-  "name": "cypress-primer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx cypress open"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cypress": "^9.5.1",
-    "faker": "^6.6.6"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^6.0.0-alpha.7"
-=======
+
   "name": "@faker-js/faker",
   "version": "6.0.0-beta.0",
   "description": "Generate massive amounts of fake contextual data",
@@ -146,6 +129,5 @@
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7.0.0"
->>>>>>> 5cd3daef2b586b7f7c89b82259831ca4810d77d5
   }
 }
