@@ -1,3 +1,8 @@
 
-{
+{ "baseUrl": "https://gallery-app.vivifyideas.com/",
+
+"env": {
+    "testUserEmail": "mila1@dpq.com",
+    "testUserPass": "test1234"
+    }
 }
